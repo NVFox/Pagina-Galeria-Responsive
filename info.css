@@ -1,0 +1,149 @@
+ul, li{
+    list-style: none;
+}
+
+h2{
+    font-family: 'Georama', sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    line-height: 15pt;
+}
+
+.arts > section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+}
+
+.arts1 > section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.esculturas{
+    height: 75%;
+}
+
+.cuadros{
+    height: 90%;
+}
+
+.esculturas, .cuadros{
+    display: flex;
+    flex-direction: column;
+}
+
+.esculturas .tit{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+.cuadros .tit{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    margin: 0 auto;
+}
+
+.tit h2{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+}
+
+.img > a {
+    width: 30%;
+    height: 27vh;
+    margin: 0 0.25rem 0.5rem;
+}
+
+.img > a:hover {
+    transform: scale(1.05);
+    transition: all 300ms;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(1rem);
+}
+
+.arrow.a1 a{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.back{
+    position: fixed;
+    bottom: 1.1rem;
+    right: 1.5rem;
+
+}
+
+.back a{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 2rem;
+}
+
+.back a:hover{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 1087px){
+    .img > a {
+        width: 45%;
+        height: 27vh;
+        margin: 0 0.25rem 0.5rem;
+    }
+    .arts > section {
+        height: fit-content;
+        margin-bottom: 0.5em;
+    }
+    .arts1 > section {
+        height: fit-content;
+        margin-bottom: 2.5em;
+    }
+}
+
+@media (max-width: 834px){
+    .img > a {
+        width: 60%;
+        height: 27vh;
+        margin: 0 0.25rem 0.5rem;
+    }
+    .img{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 634px){
+    .img > a {
+        width: 100%;
+        height: 27vh;
+        margin: 0 0.25rem 0.5rem;
+    }
+}

@@ -1,0 +1,177 @@
+footer{
+    background: rgba(0, 0, 0, 0.85);
+    height: 40vh;
+}
+
+footer > .cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2{
+    color: white;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a, footer i{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tt{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    justify-content: center;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.form input{
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.tt2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+    margin-bottom: 1.5em;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 25vh;
+}
+
+.contact a{
+    margin-bottom: 1em;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.social i{
+    font-size: 1.5rem;
+    margin: 0 0.1em;
+}
+
+.lg{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.tt0{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tt0 h2{
+    font-size: 4rem;
+}
+
+.tt0 p{
+    font-size: 0.8rem;
+    text-align: left;
+    color: white;
+}
+
+@media (max-width: 1156px){
+    .contacto{
+        width: 10%;
+        margin-bottom: 0;
+    }
+
+    .tt2{
+        margin-bottom: 0;
+    }
+
+    .formulario{
+        width: 35%;
+    }
+
+    .contact a{
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 903px){
+    footer{
+        height: fit-content;
+    }
+    footer > .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .lg{
+        width: 100%;
+        height: 20vh;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .contacto{
+        width: 100%;
+    }
+    .tt0{
+        align-items: center;
+        width: 100%;
+    }
+    .tt0 h2{
+        text-align: center;
+    }
+    
+    .tt0 p{
+        text-align: center;
+    }
+    .tt{
+        width: 100%;
+        justify-content: center;
+    }
+    .tt h2{
+        text-align: center;
+    }
+    .tt2{
+        justify-content: center;
+    }
+    
+    .contact{
+        align-items: center;
+    }
+    .social{
+        justify-content: center;
+    }
+}

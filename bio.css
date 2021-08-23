@@ -1,0 +1,189 @@
+h2{
+    font-family: 'Georama', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    line-height: 15pt;
+}
+
+.cont2{
+    width: 55%;
+    margin: auto;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-content: center;
+}
+
+.titulo{
+    height: 10vh;
+    display: flex;
+}
+
+.titulo > h2{
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+}
+
+.txt{
+    width: 50%;
+    height: fit-content;
+}
+
+.img{
+    width: 40%;
+    height: fit-content;
+}
+
+.img img{
+    width: 100%;
+}
+
+.ob{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.obras{
+    height: 10vh;
+    display: flex;
+}
+
+.obras > h2{
+    margin: auto;
+}
+
+.cnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+}
+
+.cnt img{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.cnt :nth-child(4){
+    width: 50%;
+}
+
+.cnt :nth-child(5){
+    width: 30%;
+}
+
+.jean :nth-child(4){
+    width: 20%;
+}
+
+.jean :nth-child(5){
+    width: 25%;
+}
+
+.keith :nth-child(4){
+    height: 45vh;
+}
+
+.keith :nth-child(5){
+    width: 35%;
+    height: 45vh;
+}
+
+.arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(2.5rem);
+}
+
+.arrow a{
+    color: white;
+}
+
+.arrow.a1 a{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.back{
+    position: fixed;
+    bottom: 1.1rem;
+    right: 1.5rem;
+}
+
+.back a{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 2rem;
+}
+
+.back a:hover{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 1101px){
+    .cont2{
+        width: 65%;
+    }
+    .cnt img{
+        width: 45%;
+    }
+    .ob{
+        height: fit-content;
+    }
+    .job{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 934px){
+    .cont2{
+        width: 75%;
+    }
+}
+
+@media (max-width: 812px){
+    .cont2{
+        width: 90%;
+    }
+    .content{
+        flex-direction: column-reverse;
+    }
+    .bio{
+        margin-bottom: 5rem;
+    }
+    .bio, .ob{
+        height: fit-content;
+    }
+    .txt{
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 700px){
+    .cnt img{
+        width: 70%;
+    }
+    .cnt :nth-child(4){
+        width: 70%;
+    }
+    .cnt :nth-child(5){
+        width: 70%;
+    }
+}

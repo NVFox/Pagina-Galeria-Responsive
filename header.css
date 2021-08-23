@@ -1,0 +1,227 @@
+header h1{
+    font-family: 'Georama', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    font-size: 0.85rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cont {
+    width: 80%;
+    margin: auto;
+}
+
+.cont1 {
+    width: 60%;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 10vh;
+    display: flex;
+}
+
+header .cont {
+    display: flex;
+}
+
+header .cont > a {
+    color: white;
+    font-size: 2rem;
+}
+
+header nav{
+    margin: auto 0 auto auto;
+}
+
+header ul{
+    list-style: none;
+}
+
+header nav ul > li{
+    position: relative;
+    display: inline-block;
+}
+
+header nav > ul > li > a{
+    display: block;
+    padding: 25px 20px;
+    color: white;
+}
+
+header .submenu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+header .submenu a{
+    text-align: center;
+    color: black;
+}
+
+header nav > ul > li:hover .submenu{
+    display: flex;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+header nav > ul > li:hover .submenu a{
+    padding: 10px;
+    display: block;
+    background: white;
+}
+
+header .responsive {
+    display: none;
+}
+
+.rm{
+    display: none;
+}
+
+.ms{
+    display: flex;
+    align-items: center;
+}
+
+.ms h1{
+    font-size: 4rem;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label > i{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.responsive{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.rm.r1{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 90%;
+    right: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+.menu-adicional{
+    display: none;
+}
+
+.menu-adicional h1{
+    color: white;
+    font-family: 'Georama', sans-serif;
+}
+
+.menu-adicional a, .menu-adicional p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.menu-adicional i{
+    color: white;
+}
+
+.response.menu-adicional{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    align-items: center;
+    justify-content: center;
+}
+
+.response ul > li{
+    display: block;
+}
+
+.response nav > ul > li > a{
+    display: block;
+    padding: 25px 20px;
+    color: white;
+}
+
+.response .submenu{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.response .submenu a{
+    text-align: center;
+    color: black;
+}
+
+.response nav > ul > li:target .submenu{
+    display: flex;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.response nav > ul > li:target .submenu a{
+    padding: 10px;
+    display: block;
+    background: white;
+}
+
+@media (max-width: 1204px){
+    .cont {
+        width: 85%;
+    }
+    
+    .cont1 {
+        width: 65%;
+    }
+}
+
+@media (max-width: 960px){
+    header nav{
+        display: none;
+    }
+    header .responsive {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 890px){
+    .cont {
+        width: 90%;
+    }
+    
+    .cont1 {
+        width: 70%;
+    }
+}

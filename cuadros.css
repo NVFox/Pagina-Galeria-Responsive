@@ -1,0 +1,531 @@
+.fondo{
+    background-image: url(./IMG/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alt{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+h2, h3{
+    font-family: 'Georama', sans-serif;
+}
+
+.alt1{
+    background: white;
+}
+
+.alt1 h3{
+    color: black;
+}
+
+.alt a{
+    color: white;
+}
+
+.cuadros img{
+    width: 33%;
+    margin: 2px;
+}
+
+.arts{
+    display: flex;
+}
+
+.arts > section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+}
+
+.arts1 > section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 105vh;
+}
+
+#egip1 .img{
+    margin: 1rem 0;
+}
+
+#egip2 .img{
+    margin: 1rem 0;
+}
+
+#renac1 .img{
+    margin: 0 0;
+}
+
+#egip1 .img > a:nth-child(2) img{
+    width: 25%;
+}
+
+#egip1 .img > a:nth-child(5) img{
+    width: 37%;
+}
+
+#egip2 .img > a:nth-child(1) img{
+    width: 28%;
+}
+
+#egip2 .img > a:nth-child(3) img{
+    width: 22.4%;
+}
+
+#egip2 .img > a:nth-child(4) img{
+    width: 31%;
+}
+
+#egip2 .img > a:nth-child(5) img{
+    width: 28%;
+}
+
+#grieg1 .img img{
+    width: 38.7%;
+}
+
+#grieg1 .img > a:nth-child(2) img{
+    width: 45%;
+}
+
+#grieg1 .img > a:nth-child(3) img{
+    width: 35%;
+}
+
+#grieg1 .img > a:nth-child(4) img{
+    width: 29.5%;
+}
+
+#grieg1 .img > a:nth-child(5) img{
+    width: 29%;
+}
+
+#grieg2 .img > a:nth-child(1) img{
+    width: 24.7%;
+}
+
+#grieg2 .img > a:nth-child(3) img{
+    width: 37.3%;
+}
+
+#grieg2 .img > a:nth-child(5) img{
+    width: 36.3%;
+}
+
+#got2 .img img{
+    width: 23%;
+}
+
+#got1 .img > a:nth-child(1) img{
+    width: 30%;
+}
+
+#got1 .img > a:nth-child(2) img{
+    width: 54%;
+}
+
+#got1 .img > a:nth-child(3) img{
+    width: 20.7%;
+}
+
+#got1 .img > a:nth-child(4) img{
+    width: 20.6%;
+}
+
+#got1 .img > a:nth-child(5) img{
+    width: 25.8%;
+}
+
+#got2 .img > a:nth-child(1) img{
+    width: 32%;
+}
+
+#got2 .img > a:nth-child(2) img{
+    width: 24.2%;
+}
+
+#got2 .img > a:nth-child(4) img{
+    width: 34.5%;
+}
+
+#got2 .img > a:nth-child(5) img{
+    width: 28%;
+}
+
+#renac1 .img > a:nth-child(1) img{
+    width: 35%;
+}
+
+#renac1 .img > a:nth-child(2) img{
+    width: 20.3%;
+}
+
+#renac1 .img > a:nth-child(3) img{
+    width: 23.6%;
+}
+
+#renac1 .img > a:nth-child(4) img{
+    width: 42%;
+}
+
+#renac2 .img > a:nth-child(2) img{
+    width: 22.5%;
+}
+
+#renac2 .img > a:nth-child(5) img{
+    width: 36%;
+}
+
+#bar2 .img > a:nth-child(2) img{
+    width: 29.5%;
+}
+
+#bar2 .img > a:nth-child(3) img{
+    width: 30%;
+}
+
+#bar2 .img > a:nth-child(4) img{
+    width: 35.5%;
+}
+
+.esculturas, .cuadros{
+    margin: 1rem 0;
+}
+
+.esculturas a, .cuadros a{
+    font-size: 1.5rem;
+}
+
+.cuadros h2{
+    font-size: 2.7rem;
+    margin-bottom: 5px;
+}
+
+.arts1 a > h3{
+    margin: 2rem 0 4.5rem;
+}
+
+#grieg1 a > h3{
+    margin: 2rem 0 4.3rem;
+}
+
+.arts a > h3{
+    font-size: 2rem;
+}
+
+.arts1 a{
+    font-size: 2rem;
+}
+
+.esculturas img:hover, .cuadros img:hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+}
+
+.arts1 .arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(5rem);
+}
+
+#grieg2 .arrow{
+    transform: translateY(3rem);
+}
+
+#got2 .arrow{
+    transform: translateY(3rem);
+}
+
+#renac2 .arrow{
+    transform: translateY(4rem);
+}
+
+#grieg1 .arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(4.8rem);
+}
+
+#got1 .arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(3.7rem);
+}
+
+#renac1 .arrow{
+    transform: translateY(3rem);
+}
+
+.arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(1.5rem);
+}
+
+.arrow a{
+    color: white;
+    font-size: 2rem;
+}
+
+.arrow.a1 a{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 2rem;
+}
+
+.back{
+    position: fixed;
+    bottom: 1.1rem;
+    right: 1.5rem;
+
+}
+
+.back a{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 2rem;
+}
+
+.back a:hover{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 1101px){
+    .cont1{
+        width: 70%;
+    }
+    
+    #grieg1 .arrow{
+        transform: translateY(6.3rem);
+    }
+    
+    #got1 .arrow{
+        transform: translateY(5.5rem);
+    }
+    
+    #renac1 .arrow{
+        transform: translateY(5rem);
+    }
+
+    #grieg2 .arrow{
+        transform: translateY(5rem);
+    }
+    
+    #got2 .arrow{
+        transform: translateY(5rem);
+    }
+    
+    #renac2 .arrow{
+        transform: translateY(6rem);
+    }
+
+    .arrow.lss{
+        transform: translateY(3rem);
+    }
+    
+    .arrow.cs{
+        transform: translateY(3rem);
+    }
+
+    .arrow{
+        transform: translateY(7rem);
+    }
+}
+
+@media (max-width: 934px){
+    .cont1{
+        width: 80%;
+    }
+}
+
+@media (max-width: 812px){
+    .cont1{
+        width: 90%;
+    }
+    .img > a > img{
+        width: 60%;
+    }
+    .arts > section{
+        height: fit-content;
+    }
+    .arts1 > section{
+        height: fit-content;
+    }
+    #egip1 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #egip1 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+
+    #egip2 .img > a:nth-child(1) img{
+        width: 60%;
+    }
+    
+    #egip2 .img > a:nth-child(3) img{
+        width: 60%;
+    }
+    
+    #egip2 .img > a:nth-child(4) img{
+        width: 60%;
+    }
+    
+    #egip2 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+    
+    #grieg1 .img img{
+        width: 60%;
+    }
+    
+    #grieg1 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #grieg1 .img > a:nth-child(3) img{
+        width: 60%;
+    }
+    
+    #grieg1 .img > a:nth-child(4) img{
+        width: 60%;
+    }
+    
+    #grieg1 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+
+    #grieg2 .img > a:nth-child(1) img{
+        width: 60%;
+    }
+    
+    #grieg2 .img > a:nth-child(3) img{
+        width: 60%;
+    }
+    
+    #grieg2 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+    
+    #got1 .img > a:nth-child(1) img{
+        width: 60%;
+    }
+    
+    #got1 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #got1 .img > a:nth-child(3) img{
+        width: 60%;
+    }
+    
+    #got1 .img > a:nth-child(4) img{
+        width: 60%;
+    }
+
+    #got2 .img img{
+        width: 60%;
+    }
+    
+    #got1 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+
+    #got2 .img > a:nth-child(1) img{
+        width: 60%;
+    }
+    
+    #got2 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #got2 .img > a:nth-child(4) img{
+        width: 60%;
+    }
+    
+    #got2 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+    
+    #renac1 .img > a:nth-child(1) img{
+        width: 60%;
+    }
+    
+    #renac1 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #renac1 .img > a:nth-child(3) img{
+        width: 60%;
+    }
+    
+    #renac1 .img > a:nth-child(4) img{
+        width: 60%;
+    }
+    #renac2 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #renac2 .img > a:nth-child(5) img{
+        width: 60%;
+    }
+    
+    #bar2 .img > a:nth-child(2) img{
+        width: 60%;
+    }
+    
+    #bar2 .img > a:nth-child(3) img{
+        width: 60%;
+    }
+    
+    #bar2 .img > a:nth-child(4) img{
+        width: 60%;
+    }
+
+    .arrow{
+        transform: translateY(0);
+    }
+
+    .arrow.lss{
+        transform: translateY(0);
+    }
+
+    .arts1 .arrow{
+        transform: translateY(0);
+    }
+    
+    #grieg1 .arrow{
+        transform: translateY(0);
+    }
+    
+    #got1 .arrow{
+        transform: translateY(0);
+    }
+    
+    #renac1 .arrow{
+        transform: translateY(0);
+    }
+
+    #grieg2 .arrow{
+        transform: translateY(0);
+    }
+    
+    #got2 .arrow{
+        transform: translateY(0);
+    }
+    
+    #renac2 .arrow{
+        transform: translateY(0);
+    }
+}

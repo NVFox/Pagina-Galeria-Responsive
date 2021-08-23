@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, p{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header a {
+    font-size: 0.85rem;
+}
+
+h1, h2{
+    font-family: 'Georama', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cont {
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 10vh;
+    display: flex;
+}
+
+header .cont {
+    display: flex;
+}
+
+header .cont > a {
+    color: white;
+    font-size: 2rem;
+}
+
+header nav{
+    margin: auto 0 auto auto;
+}
+
+header .responsive {
+    display: none;
+}
+
+header ul{
+    list-style: none;
+}
+
+header nav ul > li{
+    position: relative;
+    display: inline-block;
+}
+
+header nav > ul > li > a{
+    display: block;
+    padding: 25px 20px;
+    color: white;
+}
+
+header .submenu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+header .submenu a{
+    text-align: center;
+    color: black;
+}
+
+header nav > ul > li:hover .submenu{
+    display: flex;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+header nav > ul > li:hover .submenu a{
+    padding: 10px;
+    display: block;
+    background: white;
+}
+
+.img-principal{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./Egyptian_Karnak_carving-Windows_10_HD_Wallpaper_1920x1200.jpg);
+    background-attachment: fixed;
+}
+
+.img-principal .content{
+    background: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .text{
+    width: 50%;
+    margin: auto;
+}
+
+.text h1, h2, a, p{
+    text-align: center;
+    color: white;
+}
+
+.text h1{
+    font-size: 3.5rem;
+}
+
+.text h2{
+    font-size: 1rem;
+}
+
+.arrow{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(-1rem);
+}
+
+.arrow a{
+    color: white;
+}
+
+.arrow.a1 a{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.galeria1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.galeria1 h2, p{
+    color: black;
+}
+
+.galeria1 a{
+    color: white;
+}
+
+.galeria1 > a{
+    transform: translateY(2rem);
+    font-size: 1.3rem;
+}
+
+.arte{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.presentacion{
+    width: 30%;
+    box-shadow: 0 0 3px 1px black;
+    height: 100%;
+}
+
+.presentacion a{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.presentacion a:hover{
+    transition: ease-in 250ms;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.galeria1 > h2{
+    margin: 10rem;
+}
+
+#galeria1 > a{
+    transform: translateY(-0.01rem);
+    transform: translateY(1.5rem);
+}
+
+#galeria1 .p2 h2, p{
+    padding: 5px;
+}
+
+#galeria2 > a{
+    transform: translateY(-0.01rem);
+    transform: translateY(1.3rem);
+}
+
+#galeria2 > .arte > .presentacion{
+    height: 95%;
+    transform: translateY(1em);
+}
+
+#galeria3 .p2 h2, p{
+    padding: 5px;
+}
+
+#galeria5 > .arte > .presentacion{
+    height: 110%;
+    transform: translateY(-1.5em);
+}
+
+.presentacion h2, p{
+    padding: 5px 0;
+}
+
+.p2 h2, p{
+    padding: 15px 0;
+}
+
+.p3 h2, p{
+    padding: 5px 0;
+}
+
+.presentacion h2{
+    transform: translateY(0.3rem);
+}
+
+.presentacion img{
+    width: 100%;
+    height: 45%;
+}
+
+.txt{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.tx{
+    margin: auto;
+}
+
+.back{
+    position: fixed;
+    bottom: 1.1rem;
+    right: 1.5rem;
+
+}
+
+.back a{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 2rem;
+}
+
+.back a:hover{
+    color: rgba(0, 0, 0, 0.85);
+}
+
+
+.rm{
+    display: none;
+}
+
+.ms{
+    display: flex;
+    align-items: center;
+}
+
+.ms h1{
+    font-size: 4rem;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label > i{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.responsive{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.rm.r1{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 90%;
+    right: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+.menu-adicional{
+    display: none;
+}
+
+.response.menu-adicional{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.response ul > li{
+    display: block;
+}
+
+.response nav > ul > li > a{
+    display: block;
+    padding: 25px 20px;
+    color: white;
+}
+
+.response .submenu{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.response .submenu a{
+    text-align: center;
+    color: black;
+}
+
+.response nav > ul > li:target .submenu{
+    display: flex;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.response nav > ul > li:target .submenu a{
+    padding: 10px;
+    display: block;
+    background: white;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.85);
+    height: 40vh;
+}
+
+footer > .cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tt{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    justify-content: center;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.form input{
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.tt2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+    margin-bottom: 1.5em;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 25vh;
+}
+
+.contact a{
+    margin-bottom: 1em;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.social i{
+    font-size: 1.5rem;
+    margin: 0 0.1em;
+}
+
+.lg{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.tt0{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tt0 h2{
+    font-size: 4rem;
+}
+
+.tt0 p{
+    font-size: 0.8rem;
+    text-align: left;
+    color: white;
+}
+
+@media (max-width: 1204px){
+    header .cont, .response .cont {
+        width: 85%;
+    }
+    
+    header .cont1, .response .cont1 {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1156px){
+    .galeria1{
+        height: fit-content;
+    }
+    .arte{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .presentacion{
+        width: 45%;
+        height: 65vh;
+        margin: 2em 0;
+    }
+    #galeria1 > a{
+        transform: translateY(1rem);
+    }
+    
+    #galeria1 .p2 h2, p{
+        padding: 5px;
+    }
+    
+    #galeria2 > a{
+        transform: translateY(-0.01rem);
+        transform: translateY(1.3rem);
+    }
+
+    #galeria3 > a{
+        transform: translateY(-0.01rem);
+        transform: translateY(1rem);
+    }
+
+    #galeria2 .arrow{
+        transform: translateY(0.1em);
+        margin-bottom: 1em;
+    }
+
+    #galeria4 > a{
+        transform: translateY(-0.01rem);
+        transform: translateY(1rem);
+    }
+
+    #galeria5 > a{
+        transform: translateY(-0.01rem);
+        transform: translateY(1rem);
+    }
+    
+    #galeria2 > .arte > .presentacion{
+        height: 65vh;
+        transform: translateY(1em);
+    }
+    
+    #galeria3 .p2 h2, p{
+        padding: 5px;
+    }
+    
+    #galeria5 > .arte > .presentacion{
+        height: 65vh;
+        transform: translateY(0);
+    }
+
+    .contacto{
+        width: 10%;
+        margin-bottom: 0;
+    }
+
+    .tt2{
+        margin-bottom: 0;
+    }
+
+    .formulario{
+        width: 35%;
+    }
+
+    .contact a{
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 960px){
+    header nav{
+        display: none;
+    }
+    header .responsive {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 903px){
+    .arte{
+        flex-direction: column;
+    }
+    .presentacion{
+        width: 100%;
+        height: fit-content;
+        margin: 2em 0;
+    }
+    #galeria2 > .arte > .presentacion{
+        height: fit-content;
+    }
+    #galeria5 > .arte > .presentacion{
+        height: fit-content;
+        transform: translateY(0);
+    }
+    footer{
+        height: fit-content;
+    }
+    footer > .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .lg{
+        width: 100%;
+        height: 20vh;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .contacto{
+        width: 100%;
+    }
+    .tt0{
+        align-items: center;
+        width: 100%;
+    }
+    .tt0 h2{
+        text-align: center;
+    }
+    
+    .tt0 p{
+        text-align: center;
+    }
+    .tt{
+        width: 100%;
+        justify-content: center;
+    }
+    .tt h2{
+        text-align: center;
+    }
+    .tt2{
+        justify-content: center;
+    }
+    
+    .contact{
+        align-items: center;
+    }
+    .social{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 890px){
+    header .cont, .response .cont {
+        width: 90%;
+    }
+    
+    header .cont1, .response .cont1 {
+        width: 70%;
+    }
+}
